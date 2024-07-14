@@ -114,12 +114,15 @@ const Contact = () => {
             />
           </label>
 
-          <button
+          <div className="flex justify-center my-5">
+            <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:text-[#915EFF] ease-in-out duration-300'
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          </div>
+          
         </form>
       </motion.div>
 

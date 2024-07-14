@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  portfolio,
   jobit,
   tripguide,
   threejs,
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -198,25 +198,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Erick's Portfolio",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "css",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://erickrz21.github.io/",
   },
   {
     name: "Job IT",
